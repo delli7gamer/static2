@@ -15,9 +15,6 @@ a {
     color:rgb(255, 208, 0);
     text-decoration: none;
 }
-p {
-    font-size: x-large;
-}
 
 .container {
     background-color: rgb(77, 77, 77);
@@ -34,6 +31,7 @@ p {
     padding: 30px;
     width: 80%;
     border-radius: 3px;
+    font-size: clamp(1.5rem,4vw+1rem,3rem);
 }
 .home {
     background-color: rgb(60, 255, 0);
@@ -41,6 +39,7 @@ p {
     width: 87%;
     border-radius: 3px;
     color:black;
+    font-size: clamp(1.5rem,4vw+1rem,3rem);
 }
 .divider {
     width: 100%;
@@ -55,6 +54,7 @@ p {
     width: 80%;
     max-width: 292px;
     border-radius: 3px;
+    font-size: clamp(1.5rem,4vw+1rem,3rem);
 }
 .socials {
     background-color: rgb(39, 39, 39);
@@ -73,12 +73,14 @@ p {
     padding: 20px;
     color:black;
     border-radius: 5px;
+    font-size: clamp(1.5rem,4vw+1rem,3rem);
 }
 .download {
     background-color: rgb(0, 110, 255);
     padding: 20px;
     color:black;
     border-radius: 5px;
+    font-size: clamp(1.5rem,4vw+1rem,3rem);
 }
 
 h1 {
