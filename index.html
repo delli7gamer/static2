@@ -44,35 +44,12 @@
             </div>
 
         </div>
-
-        <div id="controls">
-            <b><a href="https://github.com/alan7458/ebsprite-html">ebsprite</a> control panel</b><br>
-            <label for="spriteId">Sprite ID:</label>
-            <input type="number" id="spriteId" min="0" value="0">
-            <button id="changeSprite">Change Sprite</button>
-        </div>
-
-        <script src="./static/js/ebsprite.min.js"></script>
     </div>
 
     <script src="/static/js/tilt.min.js"></script>
 
     <script>
         VanillaTilt.init(document.querySelectorAll(".tile"));
-    </script>
-
-    <script>
-        ebsprite.start(4); // ness
-
-        document.getElementById("changeSprite").addEventListener("click", () => {
-            const id = parseInt(document.getElementById("spriteId").value);
-            if (!isNaN(id)) {
-                ebsprite.stop();
-                ebsprite.start(id);
-            }
-        });
-
-        spriteData.forEach((s, i) => console.log(i, s.name))
     </script>
 </body>
 

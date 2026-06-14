@@ -1,3 +1,20 @@
+@font-face {
+    font-family: "TerminusTTF";
+    src: url("https://www.ossftw.com/terminus-ttf-4.49.3/TerminusTTF-4.49.3.ttf") format("truetype");
+}
+
+*,
+*::before,
+*::after {
+    font-family: "TerminusTTF" !important;
+
+    -webkit-font-smoothing: none !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+
+    text-rendering: optimizeSpeed !important;
+}
+
 body {
     background-color: #000000;
     background-image: url("/static/img/axiom-pattern.png");
@@ -42,4 +59,19 @@ canvas {
 
 #controls {
     margin-top: 18px;
+}
+
+button {
+    color: white;
+}
+
+a {
+    color: rgb(0, 110, 255);
+}
+
+p,
+button,
+div,
+a {
+    font-size: 16pt;
 }
