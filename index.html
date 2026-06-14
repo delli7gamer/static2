@@ -9,36 +9,44 @@
 </head>
 
 <body>
-    <h1 style="color:rgb(255, 208, 0);">delli7gamer website</h1>
-    <div class="container">
-        <h2>
+    <div id="container">
+        <h1>delli7gamer</h1>
+        <div class="section">
             I am mainly a hardware engineer and prefer to actaully mess with boards instead of code what they do.
             This site doesnt have much of a purpose other then to host my socials and download links. Eaglercraft
             is below if thats what your looking for, not associated with lax1dude.
-        </h2>
+        </div>
+        <div class="section">
+            <h2>
+                Projects
+            </h2>
+            <ul>
+                <li> <a class="link" href="./static/eaglercraft/index.html">My eaglercraft ports</a></li>
+                <li> <a class="link" href="./static/frp/index.html">FRP bypass</a></li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Socials</h2>
+            <div id="tiles">
+                <span data-tilt>
+                    <div class="tile">
+                        <p><a class="link" href="https://github.com/delli7gamer">https://github.com/delli7gamer</a> My
+                            Github</p>
+                    </div>
+                </span>
+                <span data-tilt>
+                    <div class="tile">
+                        <p><a class="link"
+                                href="https://www.tiktok.com/@snapdragon.210.hype">https://www.tiktok.com/@snapdragon.210.hype</a>
+                            My Tiktok</p>
+                    </div>
+                </span>
+            </div>
+
+        </div>
     </div>
-    <h1>
-        Things to do
-    </h1>
-    <div class="container">
-        <h1 class="card">
-            <a class="link" href="./static/eaglercraft/index.html">My eaglercraft ports</a>
-        </h1>
-        <h1 class="card">
-            <a class="link" href="./static/frp/index.html">FRP bypass</a>
-        </h1>
-    </div>
-    <h1>
-        Socials
-    </h1>
-    <div class="socials">
-        <h1 class="socialscard">
-            <a class="link" href="https://www.tiktok.com/@snapdragon.210.hype">My tiktok</a>
-        </h1>
-        <h1 class="socialscard">
-            <a class="link" href="https://github.com/delli7gamer">My github</a>
-        </h1>
-    </div>
+    <script src="/static/js/tilt.min.js"></script>
+    <script src="/static/js/jquery.min.js">$(".tile").tilt()</script>
 </body>
 
 </html>
