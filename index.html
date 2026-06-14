@@ -46,7 +46,10 @@
         </div>
     </div>
     <script src="/static/js/tilt.min.js"></script>
-    <script src="/static/js/jquery.min.js">$(".tile").tilt()</script>
+
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".tile"));
+    </script>
 </body>
 
 </html>
